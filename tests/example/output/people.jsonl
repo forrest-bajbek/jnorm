@@ -1,0 +1,2 @@
+{"people_id": 1, "name": "Bob", "gender": "male", "age": 34, "stupid": false, "height": 5.1}
+{"people_id": 2, "name": "Alice", "gender": "female", "age": 32, "stupid": true, "height": 5.2}

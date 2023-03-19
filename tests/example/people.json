@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Bob",
+        "gender": "male",
+        "age": 34,
+        "stupid": false,
+        "height": 5.10,
+        "favorite_foods": [
+            "tacos",
+            "burritos"
+        ],
+        "housing_history": [
+            {
+                "address1": "123 abc drive",
+                "state": "FL",
+                "zip": 33064
+            },
+            {
+                "address1": "234 def drive",
+                "address2": "apt 1",
+                "state": "FL",
+                "zip": 33065
+            }
+        ]
+    },
+    {
+        "name": "Alice",
+        "gender": "female",
+        "age": 32,
+        "stupid": true,
+        "height": 5.2,
+        "favorite_foods": [
+            "flautas",
+            "enchilladas"
+        ],
+        "housing_history": [
+            {
+                "address1": "567 ghi drive",
+                "state": "FL",
+                "zip": 33066
+            },
+            {
+                "address1": "89 jkl drive",
+                "address2": "apt 2",
+                "state": "FL",
+                "zip": 33067
+            }
+        ]
+    }
+]
