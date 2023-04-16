@@ -1,3 +1,41 @@
 [build-system]
 requires = ["setuptools>=46.1.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "jnorm"
+version = "1.0.0"
+description = "Normalize deeply nested JSON files into flat JSONL files."
+authors = [
+    {name = "Forrest Bajbek", email = "forrestbajbek@gmail.com"},
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    "ijson",
+    "rich",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Database",
+    "Topic :: Text Processing",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["jnorm"]
+
+[project.scripts]
+jnorm = "jnorm.main:run"

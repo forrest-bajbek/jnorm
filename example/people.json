@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bob",
+        "gender": "male",
+        "favorite_foods": [
+            "tacos",
+            "burritos"
+        ],
+        "address": {
+            "address_1": "1234 Main Road",
+            "address_2": "Apt A",
+            "city": "Fort Lauderdale",
+            "state": "FL",
+            "zipcode": 12345
+        }
+    },
+    {
+        "name": "Alice",
+        "gender": "female",
+        "favorite_foods": [
+            "sushi",
+            "takoyami"
+        ],
+        "address": {
+            "address_1": "5678 Secondary Road",
+            "address_2": "Apt B",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipcode": 67890
+        }
+    }
+]
