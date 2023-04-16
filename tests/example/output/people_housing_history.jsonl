@@ -1,4 +1,0 @@
-{"people_housing_history_id": 1, "people_id": 1, "address1": "123 abc drive", "state": "FL", "zip": 33064}
-{"people_housing_history_id": 2, "people_id": 1, "address1": "234 def drive", "address2": "apt 1", "state": "FL", "zip": 33065}
-{"people_housing_history_id": 3, "people_id": 2, "address1": "567 ghi drive", "state": "FL", "zip": 33066}
-{"people_housing_history_id": 4, "people_id": 2, "address1": "89 jkl drive", "address2": "apt 2", "state": "FL", "zip": 33067}
