@@ -3,7 +3,7 @@ Jnorm is a Python library that normalizes deeply nested JSON files into a bunch 
 
 ## Installation
 - via pip: `pip install jnorm`
-- via Docker: `docker pull forrest-bajbek/jnorm`
+- via Docker: `docker pull forrestbajbek2/jnorm:1.0.0`
 
 ## How it works
 Consider the following JSON:
@@ -93,5 +93,5 @@ JOIN people_address pa
 ## Running from Docker
 Example:
 ```bash
-docker run -it --rm -v /path/to/folder:/data forrest-bajbek/jnorm:1.0.0 myfile.json
+docker run -it --rm -v /path/to/folder:/data forrestbajbek2/jnorm:1.0.0 myfile.json
 ```
